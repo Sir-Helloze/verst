@@ -4,8 +4,12 @@ body{
     margin: 0px auto;
     box-sizing: border-box;
 }
+::-webkit-scrollbar {
+    width: 0;
+}
 header{
     width:100%;
+    height: 100vh;
     background-image: url(../img/VectorSmartObject.jpg);
     background-size: cover;
     height: 700px;
@@ -101,7 +105,11 @@ header{
     margin-bottom: 2%;
     margin-top: 2%;
 }
-.Layer > h2{
+.Layer > a{
+    text-decoration: none;
+    
+}
+.Layer > a >h2{
     width: 70px;
     font-size: 10px;
     text-align: center;
@@ -110,6 +118,7 @@ header{
     padding: 10px 10px;
     border-radius: 20px 20px;
     margin-left: 2%;
+    text-decoration: none;
     
 }
 .Layer > h3{
@@ -168,4 +177,77 @@ header{
     color: #ff4e50;
     border-radius: 30px 30px;
     padding: 5px;
+}
+.wrapper_3{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.maz1{
+    width: 90%;
+    display: flex;
+    margin: 3px;
+}
+.maz1 > .maz1_1{
+    width: 300px;
+    border-radius: 5px;
+    height: 310px;
+    margin: 5px;
+    background-image: url(../img/maz1_1.png);
+}
+.maz1 > .maz1_2{
+    width: 300px;
+    height: 310px;
+    margin: 5px;
+    background-image: url(../img/maz1_2.png);
+    border-radius: 5px;
+}
+.maz1 > .maz1_3{
+    width: 300px;
+    height: 310px;
+    margin: 5px;
+    background-image: url(../img/maz1_3.png);
+    border-radius: 5px;
+}
+.maz2{
+    width: 90%;
+    display: flex;
+    margin: 3px;
+}
+.maz2 > .maz2_1{
+    width: 300px;
+    height: 310px;
+    margin: 5px;
+    background-image: url(../img/maz2_1.png);
+    border-radius: 5px;
+}
+.maz2 > .maz2_2{
+    width: 620px;
+    height: 310px;
+    margin: 5px;
+    background-image: url(../img/maz2_2.png);
+    border-radius: 5px;
+}
+.maz3{
+    width: 90%;
+    display: flex;
+    margin: 3px;
+}
+.maz3 > .maz3_1{
+    width: 620px;
+    height: 310px;
+    margin: 5px;
+    background-image: url(../img/maz3_1.png);
+    border-radius: 5px;
+}
+.maz3 > .maz3_2{
+    width: 300px;
+    height: 310px;
+    margin: 5px;
+    background-image: url(../img/maz3_2.png);
+    border-radius: 5px;
 }
